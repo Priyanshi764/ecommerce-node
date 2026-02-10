@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/auth";
+const API_URL = "https://ecommerce-node-ri69.onrender.com/api";
 
 /* TOGGLE ADMIN CODE FIELD */
 function toggleAdminCode() {

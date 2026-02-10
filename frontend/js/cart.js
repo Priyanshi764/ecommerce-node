@@ -1,6 +1,6 @@
 /* CART.JS - Database Synced */
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://ecommerce-node-ri69.onrender.com/api";
 const token = localStorage.getItem("token");
 
 if (!token) {
