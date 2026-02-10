@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ShopEase | Cart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">ShopEase</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cart.html" class="active">Cart</a></li>
+      <li><a href="wishlist.html">Wishlist</a></li>
+      <li><a href="orders.html">Orders</a></li>
+      <li><a href="login.html" id="auth-link">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- CART SECTION -->
+  <section class="container">
+    <h2 class="section-title">Your Shopping Cart</h2>
+
+    <div class="cart-box">
+      <div id="cart-items" class="cart-items">
+        <!-- Cart items load here -->
+      </div>
+
+      <div class="cart-summary">
+        <h3>Order Summary</h3>
+        <p id="total">Total: ₹0</p>
+        <button class="btn" onclick="checkout()">Proceed to Checkout</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 ShopEase. All rights reserved.</p>
+  </footer>
+
+  <!-- Chatbot -->
+  <div class="chatbot-container">
+    <button class="chatbot-button" id="chatbot-button" title="Chat with us">💬</button>
+    <div class="chatbot-window" id="chatbot-window">
+      <div class="chatbot-header">
+        <h3>ShopEase Assistant</h3>
+        <button class="chatbot-close" id="chatbot-close">×</button>
+      </div>
+      <div class="chatbot-messages" id="chatbot-messages"></div>
+      <div class="chatbot-quick-actions">
+        <button class="quick-action-btn" onclick="handleQuickAction('Show products')">Products</button>
+        <button class="quick-action-btn" onclick="handleQuickAction('How to order?')">How to Order</button>
+        <button class="quick-action-btn" onclick="handleQuickAction('Track order')">Track Order</button>
+      </div>
+      <div class="chatbot-input-container">
+        <input type="text" class="chatbot-input" id="chatbot-input" placeholder="Type your message...">
+        <button class="chatbot-send" id="chatbot-send">➤</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/cart.js"></script>
+  <script src="js/chatbot.js"></script>
+</body>
+</html>

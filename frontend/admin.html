@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ShopEase | Admin Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">ShopEase Admin</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cart.html">Cart</a></li>
+      <li><a href="wishlist.html">Wishlist</a></li>
+      <li><a href="orders.html">Orders</a></li>
+      <li><a href="admin.html" class="active">Admin</a></li>
+      <li><a href="#" onclick="logout()">Logout</a></li>
+    </ul>
+  </nav>
+
+  <section class="container">
+    <h2 class="section-title">Admin Dashboard</h2>
+
+    <!-- Add Product Form -->
+    <div class="admin-panel">
+      <h3>Add New Product</h3>
+      <form id="add-product-form" class="product-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Product Name *</label>
+            <input type="text" id="product-name" required>
+          </div>
+          <div class="form-group">
+            <label>Price (₹) *</label>
+            <input type="number" id="product-price" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Category *</label>
+            <select id="product-category" required>
+              <option value="">Select Category</option>
+              <option value="Electronics">Electronics</option>
+              <option value="Fashion">Fashion</option>
+              <option value="Home & Kitchen">Home & Kitchen</option>
+              <option value="Sports">Sports</option>
+              <option value="Accessories">Accessories</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Stock *</label>
+            <input type="number" id="product-stock" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Image URL *</label>
+          <input type="url" id="product-image" placeholder="https://example.com/image.jpg" required>
+        </div>
+
+        <div class="form-group">
+          <label>Description *</label>
+          <textarea id="product-description" rows="4" required></textarea>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Rating (0-5)</label>
+            <input type="number" id="product-rating" min="0" max="5" step="0.1" value="4.0">
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" id="product-featured">
+              Featured Product
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn">Add Product</button>
+      </form>
+    </div>
+
+    <!-- Product Management -->
+    <div class="admin-panel">
+      <h3>Manage Products</h3>
+      <div id="admin-products-list" class="admin-products"></div>
+    </div>
+
+    <!-- Order Management -->
+    <div class="admin-panel">
+      <h3>Recent Orders</h3>
+      <div id="admin-orders-list" class="admin-orders"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 ShopEase. All rights reserved.</p>
+  </footer>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

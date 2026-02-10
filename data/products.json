@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Wireless Bluetooth Headphones",
+    "price": 2499,
+    "description": "Premium noise-cancelling wireless headphones with 30-hour battery life and superior sound quality. Perfect for music lovers and professionals.",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+    "category": "Electronics",
+    "stock": 50,
+    "rating": 4.5,
+    "featured": true
+  },
+  {
+    "name": "Smart Watch Pro",
+    "price": 4999,
+    "description": "Advanced fitness tracker with heart rate monitor, GPS, and waterproof design. Track your health 24/7.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+    "category": "Electronics",
+    "stock": 30,
+    "rating": 4.7,
+    "featured": true
+  },
+  {
+    "name": "Leather Laptop Bag",
+    "price": 1899,
+    "description": "Professional genuine leather laptop bag with multiple compartments for 15.6 inch laptops. Stylish and durable.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+    "category": "Accessories",
+    "stock": 45,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "name": "Running Shoes",
+    "price": 3299,
+    "description": "Lightweight running shoes with advanced cushioning and breathable mesh design. Perfect for marathons.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+    "category": "Fashion",
+    "stock": 60,
+    "rating": 4.6,
+    "featured": true
+  },
+  {
+    "name": "Stainless Steel Water Bottle",
+    "price": 599,
+    "description": "Insulated water bottle keeps drinks cold for 24 hours and hot for 12 hours. Eco-friendly and leak-proof.",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500",
+    "category": "Home & Kitchen",
+    "stock": 100,
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "name": "Yoga Mat Premium",
+    "price": 1299,
+    "description": "Non-slip eco-friendly yoga mat with extra cushioning for comfort. Perfect for all yoga styles.",
+    "image": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500",
+    "category": "Sports",
+    "stock": 75,
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "name": "Portable Bluetooth Speaker",
+    "price": 1799,
+    "description": "Waterproof portable speaker with 360-degree sound and 12-hour battery. Take your music anywhere.",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500",
+    "category": "Electronics",
+    "stock": 40,
+    "rating": 4.6,
+    "featured": true
+  },
+  {
+    "name": "Sunglasses Classic",
+    "price": 899,
+    "description": "UV protection polarized sunglasses with stylish design. Protect your eyes in style.",
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500",
+    "category": "Fashion",
+    "stock": 80,
+    "rating": 4.2,
+    "featured": false
+  },
+  {
+    "name": "Travel Backpack Pro",
+    "price": 2199,
+    "description": "Durable travel backpack with USB charging port and anti-theft design. Perfect for travelers.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+    "category": "Accessories",
+    "stock": 55,
+    "rating": 4.7,
+    "featured": true
+  },
+  {
+    "name": "Coffee Maker Automatic",
+    "price": 3499,
+    "description": "Programmable coffee maker with thermal carafe and auto-shutoff. Wake up to fresh coffee.",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=500",
+    "category": "Home & Kitchen",
+    "stock": 25,
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "name": "LED Desk Lamp",
+    "price": 1499,
+    "description": "Adjustable LED desk lamp with touch control and USB charging port. Perfect for work and study.",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500",
+    "category": "Home & Kitchen",
+    "stock": 65,
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "name": "Wireless Mouse Ergonomic",
+    "price": 799,
+    "description": "Ergonomic wireless mouse with silent clicks and long battery life. Comfortable for all-day use.",
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500",
+    "category": "Electronics",
+    "stock": 90,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "name": "Mechanical Keyboard RGB",
+    "price": 3999,
+    "description": "Premium mechanical keyboard with RGB backlight and customizable keys. Perfect for gamers and typists.",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500",
+    "category": "Electronics",
+    "stock": 35,
+    "rating": 4.8,
+    "featured": true
+  },
+  {
+    "name": "Denim Jacket Classic",
+    "price": 2499,
+    "description": "Timeless denim jacket with premium fabric and perfect fit. A wardrobe essential.",
+    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=500",
+    "category": "Fashion",
+    "stock": 40,
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "name": "Wireless Earbuds Pro",
+    "price": 3499,
+    "description": "True wireless earbuds with active noise cancellation and 24-hour battery life. Crystal clear sound.",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500",
+    "category": "Electronics",
+    "stock": 60,
+    "rating": 4.7,
+    "featured": true
+  },
+  {
+    "name": "Fitness Tracker Band",
+    "price": 1999,
+    "description": "Smart fitness band with sleep tracking, step counter, and heart rate monitor. Stay healthy.",
+    "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=500",
+    "category": "Electronics",
+    "stock": 70,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "name": "Canvas Sneakers",
+    "price": 1499,
+    "description": "Comfortable canvas sneakers perfect for casual wear. Available in multiple colors.",
+    "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500",
+    "category": "Fashion",
+    "stock": 85,
+    "rating": 4.2,
+    "featured": false
+  },
+  {
+    "name": "Stainless Steel Cookware Set",
+    "price": 5999,
+    "description": "Professional 10-piece stainless steel cookware set. Durable and dishwasher safe.",
+    "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=500",
+    "category": "Home & Kitchen",
+    "stock": 20,
+    "rating": 4.6,
+    "featured": false
+  },
+  {
+    "name": "Gaming Mouse RGB",
+    "price": 1899,
+    "description": "High-precision gaming mouse with 16000 DPI and customizable RGB lighting. Dominate the game.",
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500",
+    "category": "Electronics",
+    "stock": 45,
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "name": "Cotton T-Shirt Pack",
+    "price": 999,
+    "description": "Pack of 3 premium cotton t-shirts. Soft, comfortable, and breathable fabric.",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
+    "category": "Fashion",
+    "stock": 120,
+    "rating": 4.1,
+    "featured": false
+  },
+  {
+    "name": "Air Purifier Smart",
+    "price": 6999,
+    "description": "Smart air purifier with HEPA filter and app control. Breathe clean air at home.",
+    "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=500",
+    "category": "Home & Kitchen",
+    "stock": 15,
+    "rating": 4.7,
+    "featured": true
+  },
+  {
+    "name": "Dumbbells Set Adjustable",
+    "price": 4499,
+    "description": "Adjustable dumbbell set from 5kg to 25kg. Perfect for home workouts.",
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500",
+    "category": "Sports",
+    "stock": 30,
+    "rating": 4.6,
+    "featured": false
+  },
+  {
+    "name": "Leather Wallet Premium",
+    "price": 1299,
+    "description": "Genuine leather wallet with RFID protection. Slim design with multiple card slots.",
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500",
+    "category": "Accessories",
+    "stock": 95,
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "name": "Electric Kettle 1.7L",
+    "price": 1799,
+    "description": "Fast-boiling electric kettle with auto shut-off and boil-dry protection. Stainless steel body.",
+    "image": "https://images.unsplash.com/photo-1563822249366-3efbb5c8c5ca?w=500",
+    "category": "Home & Kitchen",
+    "stock": 50,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "name": "Resistance Bands Set",
+    "price": 899,
+    "description": "Set of 5 resistance bands with different strength levels. Perfect for strength training.",
+    "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=500",
+    "category": "Sports",
+    "stock": 80,
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "name": "Webcam HD 1080p",
+    "price": 2999,
+    "description": "Full HD webcam with auto-focus and built-in microphone. Perfect for video calls and streaming.",
+    "image": "https://images.unsplash.com/photo-1587826080692-f439cd0b70da?w=500",
+    "category": "Electronics",
+    "stock": 40,
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "name": "Formal Shirt White",
+    "price": 1599,
+    "description": "Classic white formal shirt with wrinkle-free fabric. Perfect for office and events.",
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500",
+    "category": "Fashion",
+    "stock": 65,
+    "rating": 4.2,
+    "featured": false
+  },
+  {
+    "name": "Blender High Speed",
+    "price": 2999,
+    "description": "1000W high-speed blender with multiple speed settings. Perfect for smoothies and soups.",
+    "image": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=500",
+    "category": "Home & Kitchen",
+    "stock": 35,
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "name": "Phone Stand Adjustable",
+    "price": 499,
+    "description": "Universal adjustable phone stand for desk. Compatible with all smartphones and tablets.",
+    "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=500",
+    "category": "Accessories",
+    "stock": 150,
+    "rating": 4.1,
+    "featured": false
+  },
+  {
+    "name": "Hoodie Premium Cotton",
+    "price": 1999,
+    "description": "Comfortable premium cotton hoodie with kangaroo pocket. Perfect for casual wear.",
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500",
+    "category": "Fashion",
+    "stock": 55,
+    "rating": 4.6,
+    "featured": false
+  }
+]

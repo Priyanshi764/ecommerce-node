@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ShopEase | Online Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">ShopEase</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="cart.html">Cart</a></li>
+      <li><a href="wishlist.html">Wishlist</a></li>
+      <li><a href="orders.html">Orders</a></li>
+      
+      <li><a href="admin.html" class="active">Admin</a></li>
+      <li><a href="login.html" id="auth-link">Login</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Shop Smart. Shop Easy.</h1>
+    <p>Discover amazing products at affordable prices</p>
+    <a href="#products" class="btn">Shop Now</a>
+  </section>
+
+  <section class="container" id="products">
+    <h2 class="section-title">Featured Products</h2>
+    
+    <div class="filters">
+      <input type="text" id="search" placeholder="Search products..." onkeyup="searchProducts(this.value)">
+      
+      <select onchange="filterByCategory(this.value)">
+        <option value="all">All Categories</option>
+        <option value="Electronics">Electronics</option>
+        <option value="Fashion">Fashion</option>
+        <option value="Home & Kitchen">Home & Kitchen</option>
+        <option value="Sports">Sports</option>
+        <option value="Accessories">Accessories</option>
+      </select>
+      
+      <select onchange="sortProducts(this.value)">
+        <option value="newest">Newest</option>
+        <option value="price-low">Price: Low to High</option>
+        <option value="price-high">Price: High to Low</option>
+        <option value="rating">Top Rated</option>
+      </select>
+    </div>
+
+    <div class="products" id="product-list">
+      <!-- Products load dynamically -->
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 ShopEase. All rights reserved.</p>
+  </footer>
+
+  <!-- Chatbot -->
+  <div class="chatbot-container">
+    <button class="chatbot-button" id="chatbot-button" title="Chat with us">
+      💬
+    </button>
+    <div class="chatbot-window" id="chatbot-window">
+      <div class="chatbot-header">
+        <h3>ShopEase Assistant</h3>
+        <button class="chatbot-close" id="chatbot-close">×</button>
+      </div>
+      <div class="chatbot-messages" id="chatbot-messages"></div>
+      <div class="chatbot-quick-actions">
+        <button class="quick-action-btn" onclick="handleQuickAction('Show products')">Products</button>
+        <button class="quick-action-btn" onclick="handleQuickAction('How to order?')">How to Order</button>
+        <button class="quick-action-btn" onclick="handleQuickAction('Track order')">Track Order</button>
+      </div>
+      <div class="chatbot-input-container">
+        <input type="text" class="chatbot-input" id="chatbot-input" placeholder="Type your message...">
+        <button class="chatbot-send" id="chatbot-send">➤</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/products.js"></script>
+  <script src="js/chatbot.js"></script>
+</body>
+</html>

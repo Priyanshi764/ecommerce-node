@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ShopEase | Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">ShopEase</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cart.html">Cart</a></li>
+      <li><a href="wishlist.html">Wishlist</a></li>
+      <li><a href="orders.html">Orders</a></li>
+      <li><a href="login.html" class="active">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- LOGIN BOX -->
+  <section class="auth-container">
+    <div class="auth-box">
+      <h2>Welcome Back 👋</h2>
+      <p>Login to continue shopping</p>
+
+      <input type="email" id="email" placeholder="Email address" required>
+      <input type="password" id="password" placeholder="Password" required>
+
+      <button class="btn" onclick="login()">Login</button>
+
+      <p class="switch">
+        New here? <a href="register.html">Create an account</a>
+      </p>
+      
+      <p class="switch" style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #e5e7eb;">
+        Admin? <a href="admin-login.html">Admin Login</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 ShopEase. All rights reserved.</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/auth.js"></script>
+</body>
+</html>
